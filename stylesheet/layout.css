@@ -328,6 +328,10 @@ html.frontend body {
 #header.navbar .navbar-toolbar > .navbar-form .form-control::placeholder {
   color: #f2f2f2;
 }
+/* para error unable to preventdefault inside passive event listener*/
+.sortable-handler {
+  touch-action: none;
+}
 /* ----------------------------
  *
  * Template Header - screen-sm and up

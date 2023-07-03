@@ -58,7 +58,7 @@
 }
 .logo-text {
   width: 110px;
-  background-image: url("../image/logo/texto.png");
+  background-image: url("../image/logo/texto-inverso.png");
   background-repeat: no-repeat;
   -webkit-background-size: contain;
           background-size: contain;
@@ -71,7 +71,7 @@
 }
 .logo-figure {
   width: 40px;
-  background-image: url("../image/logo/logo.png");
+  background-image: url("../image/logo/logo-inverso.png");
   background-repeat: no-repeat;
   /* background-position: 0px 8px; */
   -webkit-background-size: contain;
