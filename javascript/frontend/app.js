@@ -32,3 +32,14 @@
     });
     
 }));
+let listado = [
+    'Mapeo gis',
+    'ciencia de datos',
+    'computación en la nube',
+    'asesoria y consultoria',
+    'horario de atención'
+];
+listado.forEach(item=>{
+    console.log(item);
+})
+console.log('hola desde el main');

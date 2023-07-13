@@ -63,9 +63,9 @@
   -webkit-background-size: contain;
           background-size: contain;
 }
-.logo-text + .logo-figure {
+/* .logo-text + .logo-figure { */
   /* margin-left: -13px; */
-}
+/* } */
 .logo-text.inverse {
   background-image: url("../image/logo/texto-inverso.png");
 }
