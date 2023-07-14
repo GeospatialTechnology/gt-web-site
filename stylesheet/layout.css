@@ -921,3 +921,10 @@ section.section .section-header.no-border > .section-title:after {
 .margen{
   margin-top: 10px;
 }
+.filtrado{
+  margin-bottom: 5px;
+  display: none;
+}
+.mostrarFiltrado{
+  display: block;
+}

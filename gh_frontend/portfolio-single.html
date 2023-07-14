@@ -84,17 +84,21 @@ LAST UPDATE: 2015/01/05
                     <div class="navbar-form navbar-left dropdown" id="dropdown-form">
                         <form action="" role="search">
                             <div class="has-icon">
-                                <input type="text" class="form-control input-lg" placeholder="Buscar en este sitio ...">
-                                <i class="ico-search form-control-icon"></i>
+                                <input type="text" class="txtFiltrado form-control input-lg" placeholder="Buscar en este sitio ...">
+                                <i class="ico-close form-control-icon btnCerrar"></i>
+                                <!-- <input type="text" class="form-control input-lg"> -->
                             </div>
                         </form>
+                        <div class="list-group filtrado">
+                        </div>
                     </div>
                     <!-- START navbar form -->
+
                     <!-- START Right nav -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Search form toggler -->
                         <li>
-                            <a href="javascript:void(0);" data-toggle="dropdown" data-target="#dropdown-form">
+                            <a class="btnBuscar" data-target="#dropdown-form">
                                 <span class="meta">
                                     <span class="icon"><i class="ico-search"></i></span>
                                 </span>
@@ -541,6 +545,7 @@ LAST UPDATE: 2015/01/05
         <script type="text/javascript" src="../javascript/vendor.js"></script>
         <script type="text/javascript" src="../javascript/core.js"></script>
         <script type="text/javascript" src="../javascript/frontend/app.js"></script>
+        <script type="text/javascript" src="../javascript/frontend/filtro.js"></script>
         <!--/ Application and vendor script : mandatory -->
 
         <!-- Plugins and page level script : optional -->
